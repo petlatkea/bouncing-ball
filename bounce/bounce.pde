@@ -1,3 +1,5 @@
+int x = 300;
+
 void setup() {
   size(600,400);
 }
@@ -5,5 +7,7 @@ void setup() {
 void draw() {
   background(255);
   fill(0);
-  ellipse(300,200,40,40);
+  ellipse(x,200,40,40);
+  
+  x = x + 1;
 }
